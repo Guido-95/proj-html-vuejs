@@ -35,7 +35,7 @@
                 </div>
 
             </div>
-            <Jumbotron/>
+         
            
         </div>
     </header>
@@ -43,12 +43,10 @@
 </template>
 
 <script>
-import Jumbotron from './Jumbotron.vue'
+
 export default {
     name:'Header',
-    component:{
-        Jumbotron
-    },
+   
     props:{
         listaHeader : Array,
         iconeHeader: Array,        
