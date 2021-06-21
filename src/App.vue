@@ -4,7 +4,7 @@
     <Header :listaHeader = 'listaHeader' />
     <Main/>
     
-    <Footer/>
+    <Footer :listaFooterSinistra='listaFooterSinistra' :listaFooterDestra='listaFooterDestra' />
   </div>
 </template>
 
@@ -23,6 +23,8 @@ export default {
   data(){
     return{
       listaHeader:['Home','Landing','Pages','Docs'],
+      listaFooterSinistra:['About us','Services','Team','Pricing','Project', 'Careers','Blog','Login'],
+      listaFooterDestra:['Terms of Services','Privacy Policy','Documentation','Changelog','Components']
      
     }
   }
@@ -39,7 +41,7 @@ export default {
 
 body {
 
-  font-family: 'Nunito', sans-serif;;
+  font-family: 'Nunito', sans-serif;
   }
 
 .wrapper {
@@ -48,4 +50,12 @@ body {
   
 }
 
+.colore-paragrafo{
+  color: #8896a9;
+}
+
+.testo-importante{
+  font-weight: bold;
+  color: #3157d4;
+}
 </style>
