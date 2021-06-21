@@ -10,8 +10,8 @@
                 <!-- menu centrale -->
                 <div class="menu-header">
                     <ul>
-                        <li v-for="elemento,indicatore in listaHeader" :class="elemento == listaHeader[1] ? 'attivo' : '' " :key="indicatore">
-                            {{ elemento }} <i class="fas fa-chevron-down"></i>
+                        <li v-for="elemento,indicatore in listaHeader" :class="elemento == listaHeader[1] ? 'attivo' : 'non-attivo'" :key="indicatore">
+                            {{ elemento }} <i class="fas fa-chevron-down" :class="elemento == listaHeader[0] ? 'display-none' : ''"></i>
                         </li>
                      
                     </ul>
@@ -35,38 +35,50 @@
                 </div>
 
             </div>
-         
-           
         </div>
+        <Jumbotron/>
     </header>
    
 </template>
 
 <script>
+import Jumbotron from './Jumbotron.vue'
+
 
 export default {
     name:'Header',
-   
+    components:{
+        Jumbotron,
+        
+    },
     props:{
-        listaHeader : Array,
-        iconeHeader: Array,        
+        listaHeader : Array,      
     }
 }
 </script>
 
 <style lang='scss'>
 .attivo{
-    color: blue;
+    color: #3157d4;
+}
+
+.non-attivo{
+     color: #3c4858;
+}
+
+
+.display-none{
+    display: none;
 }
     header {
-        height: 500px;
-        background-color: lightgrey;
+        
+        background-color: #f8f9fc;
         
         .wrapper{
 
             .header-top{
                 height: 70px;
-                background-color: lightseagreen;
+             
                 justify-content: space-between;
                 display: flex;
                 align-items: center;
@@ -80,6 +92,7 @@ export default {
                     ul{
                         li{
                             margin: 10px;
+                          
                         }
                     }
                 }
@@ -113,7 +126,7 @@ export default {
                         align-items: center;
                         li {
                             font-size: 13px;
-                            font-weight: 700;
+                            font-weight: 800;
                             text-transform: uppercase ;
                             
                         }

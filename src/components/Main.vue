@@ -1,17 +1,16 @@
 <template>
-    <h1 class="wrapper">contenuto principale</h1>
+    <h1 class="wrapper"> contenuto principale </h1>
 </template>
 
 <script>
 export default {
-     name:'Main',
+    name:'Main',
 }
 </script>
 
 <style lang="scss" scoped>
 
-.wrapper{
-    
+.wrapper {
     text-align: center;
 }
 

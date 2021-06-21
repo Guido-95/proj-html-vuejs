@@ -1,13 +1,20 @@
 <template>
-  <div class="wrapper"></div>
+  <footer>
+    <div class="wrapper">
+      
+    </div>
+  </footer>
+  
 </template>
 
 <script>
 export default {
-   name:'Footer',
+  name:'Footer',
 }
 </script>
 
 <style>
-
+  footer{
+    background-color: #202942;
+  }
 </style>

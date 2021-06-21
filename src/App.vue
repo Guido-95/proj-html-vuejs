@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <Header :listaHeader = 'listaHeader' :icone = "iconeHeader"/>
+
+    <Header :listaHeader = 'listaHeader' />
     <Main/>
     
     <Footer/>
@@ -41,9 +42,8 @@ body {
   font-family: 'Nunito', sans-serif;;
   }
 
-.wrapper{
+.wrapper {
   max-width: 1170px;
-  
   margin: auto;
   
 }
