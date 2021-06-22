@@ -1,10 +1,10 @@
 <template>
   <div id="app">
 
-    <Header :listaHeader = 'listaHeader' />
+    <Header :listaHeader = 'listaHeader' :logo='logo' />
     <Main/>
     
-    <Footer :listaFooterSinistra='listaFooterSinistra' :listaFooterDestra='listaFooterDestra' />
+    <Footer :listaFooterSinistra='listaFooterSinistra' :listaFooterDestra='listaFooterDestra' :logoFooter ="logoFooter" />
   </div>
 </template>
 
@@ -22,7 +22,9 @@ export default {
   },
   data(){
     return{
+      logo: 'logo-dark.png' ,
       listaHeader:['Home','Landing','Pages','Docs'],
+      logoFooter: 'logo-light.png',
       listaFooterSinistra:['About us','Services','Team','Pricing','Project', 'Careers','Blog','Login'],
       listaFooterDestra:['Terms of Services','Privacy Policy','Documentation','Changelog','Components']
      
@@ -51,6 +53,7 @@ body {
 }
 
 .colore-paragrafo{
+  font-weight: 600;
   color: #8896a9;
 }
 
@@ -58,4 +61,6 @@ body {
   font-weight: bold;
   color: #3157d4;
 }
+
+
 </style>

@@ -63,6 +63,12 @@ export default {
                 border-radius: 5px;
                 padding: 10px 20px;
                 font-weight: 700;
+                font-size: 16px;
+                cursor: pointer;
+                
+            }
+            .bottone.bottone-background:hover{
+                background-color: #2443ac;
             }
             .bottone-background{
                 background-color: #2f55d4;

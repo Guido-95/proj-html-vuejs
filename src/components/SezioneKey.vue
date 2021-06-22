@@ -4,38 +4,38 @@
             <h2>Key Features</h2>
             <p class="colore-paragrafo">Start working with <span class="testo-importante"> Landrick  </span>that can provide everything need to generate awareness, drive traffic, connect.</p>
         </div>
-        <div class="tipologie">
-            <div class="tipo-singolo">
+        <div class="colonne">
+            <div class="colonna">
                 <div class="icona">
                     <i class="uil uil-layer-group"></i>
                 </div>
-                <h4>Modular</h4>
+                <h4 >Modular</h4>
                 <p class="colore-paragrafo">Composed in a pseudo-Latin language which more or less corresponds.
 
                 </p>
                 <span>Read more <i class="fas fa-chevron-right"></i> </span>
             </div>
-            <div class="tipo-singolo">
+            <div class="colonna">
                 <div class="icona">
                     <i class="uil uil-airplay"></i>
                 </div>
-                <h4>Modular</h4>
+                <h4>Responsive</h4>
                 <p class="colore-paragrafo">Composed in a pseudo-Latin language which more or less corresponds.</p>
                 <span>Read more <i class="fas fa-chevron-right"></i> </span>
             </div>
-            <div class="tipo-singolo">
+            <div class="colonna">
                 <div class="icona">
                     <i class="uil uil-focus-target"></i>
                 </div>
-                <h4>Modular</h4>
+                <h4>Customizable</h4>
                 <p class="colore-paragrafo">Composed in a pseudo-Latin language which more or less corresponds.</p>
                 <span>Read more <i class="fas fa-chevron-right"></i> </span>
             </div>
-            <div class="tipo-singolo">
+            <div class="colonna">
                 <div class="icona">
                     <i class="uil uil-expand-arrows"></i>
                 </div>
-                <h4>Modular</h4>
+                <h4>Scalable</h4>
                 <p class="colore-paragrafo">Composed in a pseudo-Latin language which more or less corresponds.</p>
                 <span> Read more <i class="fas fa-chevron-right"></i> </span>
             </div>
@@ -60,7 +60,19 @@
                 
               
             </div>
-        </div>
+            <div class="check colore-paragrafo">
+                <div> 
+                    <i class="far fa-check-circle"></i> 
+                    Organize your data
+        
+                </div>
+                <div> 
+                    <i class="far fa-check-circle"></i> 
+                    Work with any team
+        
+                </div>
+                </div>
+            </div>
         
         
 
@@ -88,18 +100,22 @@ name:'SezioneKey'
             
         }
     }
-    .tipologie{
+    .colonne{
         display: flex;
+        justify-content: space-between;
         h4{
             margin: 20px 0px 15px 0px;
         }
-        .tipo-singolo{
-            width: calc(100%/4 - 15px);
-            margin: 0px 15px;
+       
+        .colonna{
+            width: calc(100% / 4 - 20px);
+          
             border-radius: 4px;
             padding: 32px 24px;
             margin-bottom: 50px;
-            border: 1px solid black;
+            box-shadow: 0 0 5px #eaf0f6;
+            
+
 
             p {  
                 font-weight: 600;
@@ -154,11 +170,11 @@ name:'SezioneKey'
                 margin: auto;
                 width: 100%;
                 display: flex;
-                border: 1px solid white;
+                border: 1px solid #5a6474;
                 background-color: #4f5a69;
                 border-radius: 5px;
                 .attivo{
-                    border-radius: 10px;
+                    border-radius: 8px;
                     height: 100%;
                     background-color: #3c4858;     
                 }
@@ -180,6 +196,18 @@ name:'SezioneKey'
             }
         }
         
+    }
+    .check{
+       
+        width: 100%;
+        display: flex;
+        div{
+            margin: 25px 50px 15px 0px;
+        }
+        i{  
+            font-size: 15px;
+            color: #4cd19b;
+        }
     }
 
 }

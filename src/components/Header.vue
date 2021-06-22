@@ -5,13 +5,14 @@
 
                 <!-- logo header -->
                 <div class="logo">
-                    <img src="../assets/img/logo-dark.png" alt="">
+                    <img :src="require('../assets/img/' + logo)" alt="">
                 </div>
                 <!-- menu centrale -->
                 <div class="menu-header">
                     <ul>
                         <li v-for="elemento,indicatore in listaHeader" :class="elemento == listaHeader[1] ? 'attivo' : 'non-attivo'" :key="indicatore">
                             {{ elemento }} <i class="fas fa-chevron-down" :class="elemento == listaHeader[0] ? 'display-none' : ''"></i>
+                            
                         </li>
                      
                     </ul>
@@ -29,7 +30,7 @@
                             <i class="uil uil-github"></i>
                         </li>
                         <li class="background-icona">
-                            <i class="uil uil-github"></i>
+                            <i class="uil uil-user"></i>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +53,8 @@ export default {
         
     },
     props:{
-        listaHeader : Array,      
+        listaHeader : Array,
+        logo:String   
     }
 }
 </script>
@@ -103,13 +105,14 @@ export default {
                         }
                     }
                     .background-icona{
-                        font-size: 25px;
-                        
-                        
+                        font-size: 22px;
+                
                         i{  
+                            box-shadow: 0px 0px 2px #d2daf6, 0px 5px 11px #d2daf6;
                             border-radius: 5px;
-                            background-color: lightgray;
-                            padding: 5px 8px;
+                            color: #2f55d4;
+                            background-color: #e4e9f8;
+                            padding: 8px 12px;
                         }
                     }
                     
