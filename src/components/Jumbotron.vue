@@ -1,6 +1,10 @@
 <template>
 <div class="border-bottom">
+    <div class="impostazioni">
+        <i class="fas fa-cog"></i>
+    </div>
     <div class="wrapper">
+        
         <div class="jumbotron">
             <div class="testo-jumbotron">
                 <span class="bottone-arrotondato"> Development </span>
@@ -26,7 +30,26 @@ export default {
 
 <style lang='scss' scoped>
 .border-bottom {
+    position: relative;
     border-bottom: 1px solid lightgrey;
+    .impostazioni{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        top: 50px;
+        left: -60px;
+        width: 100px;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 0px 0px 2px lightgray;
+        i{  
+            font-size: 20px;
+            color: #3157d4;
+        }
+    }
 }
     .jumbotron {
         display: flex;
@@ -38,7 +61,8 @@ export default {
         background-image: url('../assets/img/about.png');
         .bottone-arrotondato{
             border-radius: 20px;
-            background: lightgrey;
+            background: #e4e9f8;
+            border: 1px solid lightgray;
             padding: 2px 10px;
             font-size: 12px;
             font-weight: 800;
@@ -75,9 +99,13 @@ export default {
                 color: white;
             }
             .bottone-no-background{
-                
                 border: 1px solid #2f55d4;
                 color: #2f55d4;
+                
+                &:hover{
+                    color:white;
+                    background-color:#2f55d4;
+                }
             }
             h1 {
                 font-size: 46px;

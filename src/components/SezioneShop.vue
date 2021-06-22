@@ -155,7 +155,7 @@ hr{
             &:hover{
                 box-shadow: 0px 4px  #2f55d4,  0 0 5px #eaf0f6;
                 transform: scale(1.1);
-                transition: 0.5s;
+                // transition: 0.5s;
                 
             }
             .cover-ribbon {
@@ -222,6 +222,7 @@ hr{
                     padding: 10px 20px;
                     font-size: 15px;
                     font-weight: 700;
+                    cursor: pointer;
                 }
                 .bottone.bottone-background:hover{
                     background-color: #2443ac;

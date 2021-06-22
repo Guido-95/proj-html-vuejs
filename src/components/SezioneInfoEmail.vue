@@ -9,8 +9,8 @@
                 <div class="email">
                     Email Address
                 </div>
-                <div class="bottone">
-                   <button> Get Started </button> 
+                <div >
+                   <button class="bottone"> Get Started </button> 
                 </div>
             </div>
         </div>
@@ -51,17 +51,22 @@ name:'SezioneInfoEmail'
                 color: #8896a9;
             }
             .bottone{
-                button{
-                    font-family: 'Nunito', sans-serif;
-                    font-weight: 600;
-                    font-size: 16px;
-                    padding: 10px 20px;
-                    border: none;
-                    color: white;
-                    border-radius: 30px;
-                    background-color: #2f55d4;
+
+                cursor: pointer;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                padding: 10px 20px;
+                border: none;
+                color: white;
+                border-radius: 30px;
+                background-color: #2f55d4;
+
+                &:hover{
+                background-color: #2443ac;
                 }
             }
+           
         }
     }
 </style>

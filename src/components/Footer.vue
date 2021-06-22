@@ -65,6 +65,11 @@
         <img src="../assets/img/visa.png" alt="">
        
       </div>
+     
+      
+    </div>
+    <div class="hook-inizio-pagina">
+      <a href="" @click.prevent="inizioPagina"><i class="uil uil-arrow-up"></i> </a> 
     </div>
   </footer>
   
@@ -77,6 +82,11 @@ export default {
     listaFooterSinistra:Array,
     listaFooterDestra:Array,
     logoFooter:String,
+  },
+  methods:{
+    inizioPagina() {
+      window.scrollTo(0,0);
+    }
   }
 }
 </script>
@@ -86,6 +96,7 @@ export default {
     color: red;
   }
   footer {
+    position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #202942;
@@ -188,6 +199,7 @@ export default {
           background-size: 20px 20px;
           background-position: 10px center;
           background-repeat: no-repeat;
+          color:#a4acb5;
           &::placeholder{
             
             color: #a4acb5;
@@ -197,9 +209,11 @@ export default {
     }
     }
     .footer-bottom{
+      position: relative;
       display: flex;
       align-items: center;
       margin-top: 40px;
+      
       .footer-bottom-sinistra{
         width: 50%;
         color: #a4acb5;
@@ -212,7 +226,22 @@ export default {
           width: 35px;
         }
       }
+
+     
     }
-    
+  
+  .hook-inizio-pagina{
+    position: absolute;
+    right: 30px;
+    bottom: 59px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    transition: 5s;
+    background-color: #2b48aa;
+    i {
+      font-size: 20px;
+      color: white;
+    }
+  }  
   }
 </style>

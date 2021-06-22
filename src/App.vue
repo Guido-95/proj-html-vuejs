@@ -34,6 +34,9 @@ export default {
 </script>
 
 <style lang="scss">
+html{
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -62,5 +65,7 @@ body {
   color: #3157d4;
 }
 
-
+*:hover{
+  transition: 0.1s;
+}
 </style>

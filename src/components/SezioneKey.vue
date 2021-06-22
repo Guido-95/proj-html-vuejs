@@ -6,6 +6,8 @@
         </div>
         <div class="colonne">
             <div class="colonna">
+                <i class="uil uil-layer-group hover-img"></i>
+
                 <div class="icona">
                     <i class="uil uil-layer-group"></i>
                 </div>
@@ -16,6 +18,9 @@
                 <span>Read more <i class="fas fa-chevron-right"></i> </span>
             </div>
             <div class="colonna">
+              
+                <i class="uil uil-airplay hover-img"></i>
+             
                 <div class="icona">
                     <i class="uil uil-airplay"></i>
                 </div>
@@ -24,6 +29,9 @@
                 <span>Read more <i class="fas fa-chevron-right"></i> </span>
             </div>
             <div class="colonna">
+            
+                <i class="uil uil-focus-target hover-img"></i>
+          
                 <div class="icona">
                     <i class="uil uil-focus-target"></i>
                 </div>
@@ -32,6 +40,9 @@
                 <span>Read more <i class="fas fa-chevron-right"></i> </span>
             </div>
             <div class="colonna">
+ 
+                <i class="uil uil-expand-arrows hover-img"></i>
+
                 <div class="icona">
                     <i class="uil uil-expand-arrows"></i>
                 </div>
@@ -107,14 +118,34 @@ name:'SezioneKey'
             margin: 20px 0px 15px 0px;
         }
        
-        .colonna{
-            width: calc(100% / 4 - 20px);
-          
+        .colonna {
+            position: relative;
+            width: calc(100% / 4 - 30px);
             border-radius: 4px;
             padding: 32px 24px;
             margin-bottom: 50px;
-            box-shadow: 0 0 5px #eaf0f6;
-            
+            box-shadow: 0 0 4px #eaf0f6;
+            cursor: pointer;
+            overflow: hidden;
+
+            .hover-img {
+                position: absolute;
+                top: -22px;
+                right: -40px;
+                font-size: 260px;
+                z-index: -1;
+                opacity: 0;
+                color: #f5f8fe;
+                
+                
+            }
+            &:hover {
+               transform: translate(0, -4%);
+                
+            }
+            &:hover .hover-img{
+                opacity: 1;
+            }
 
 
             p {  
@@ -123,8 +154,12 @@ name:'SezioneKey'
             span{
                 display: block;
                 margin: 20px 0px 0px 0px;
+                font-weight: 600;
                 color: #3157d4;
-
+                &:hover{
+                    color: #0229b6;
+                    text-decoration: underline;
+                }
                 i {
                     font-size: 10px;
                 }
