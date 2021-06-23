@@ -296,7 +296,7 @@ footer {
 
     i {
       font-size: 20px;
-      color: white;
+      color: lightgrey;
     }
   }  
 }
