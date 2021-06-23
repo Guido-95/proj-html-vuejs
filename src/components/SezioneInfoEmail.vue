@@ -1,14 +1,12 @@
 <template>
   <div class="wrapper">
         <div class="email-info">
-            <h3>
+            <h2>
                 Want to be among the first to find out?
-            </h3>
+            </h2>
             <p class="colore-paragrafo testo-shop">Start working with <span class="testo-importante"> Landrick  </span>that can provide everything need to generate awareness, drive traffic, connect.</p>
             <div class="email-bottone">
-                <div class="email">
-                    Email Address
-                </div>
+                <input type="text" class="email" placeholder="Email Address">
                 <div >
                    <button class="bottone"> Get Started </button> 
                 </div>
@@ -31,9 +29,9 @@ name:'SezioneInfoEmail'
         .colore-paragrafo{
             font-weight: 600;
         }
-        h3{
+        h2{
             font-size: 29px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
         .email-bottone{
             box-shadow: 0px 0px 2px lightgray;
@@ -47,8 +45,20 @@ name:'SezioneInfoEmail'
             width: 100%;
             font-weight: 600;
             .email{
+                width: 50%;
+                height: 30px;
+                border: none;
                 margin-left: 30px;
+                font-size: 17px;
                 color: #8896a9;
+                &::placeholder{
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 15px;
+                }
+                &:focus{
+                    
+                    outline: none;
+                }
             }
             .bottone{
 
@@ -60,8 +70,9 @@ name:'SezioneInfoEmail'
                 border: none;
                 color: white;
                 border-radius: 30px;
-                background-color: #2f55d4;
-
+                background-color: #2f55d4;  
+                box-shadow:0px 1px 2px #2443ac;
+                
                 &:hover{
                 background-color: #2443ac;
                 }

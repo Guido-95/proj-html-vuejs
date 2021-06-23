@@ -126,6 +126,7 @@ hr{
     padding: 80px 0px;
     text-align: center;
     h2{
+        margin-bottom: 25px;
         font-size: 30px;
     }
     .colore-paragrafo{
@@ -148,14 +149,14 @@ hr{
             align-items: flex-start;
             padding: 25px;
             border-radius: 10px;
-            box-shadow: 0px 4px  #eaf0f6,  0 0 5px #eaf0f6;
+            box-shadow: 0px 3px  #adb5bd,  0 0 5px #adb5bd;
             width: calc(100% / 3 - 30px);
             cursor: pointer;
 
             &:hover{
-                box-shadow: 0px 4px  #2f55d4,  0 0 5px #eaf0f6;
+                box-shadow: 0px 3px  #2f55d4,  0 0 5px #adb5bd;
                 transform: scale(1.1);
-                // transition: 0.5s;
+                // transition: 1s;
                 
             }
             .cover-ribbon {
@@ -223,6 +224,9 @@ hr{
                     font-size: 15px;
                     font-weight: 700;
                     cursor: pointer;
+                }
+                .bottone.bottone-background{
+                    box-shadow:0px 1px 3px #2443ac;
                 }
                 .bottone.bottone-background:hover{
                     background-color: #2443ac;

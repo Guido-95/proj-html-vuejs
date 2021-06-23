@@ -47,7 +47,11 @@ html{
 body {
 
   font-family: 'Nunito', sans-serif;
-  }
+}
+
+h1,h2,h3{
+  color: #161c2d;
+}
 
 .wrapper {
   max-width: 1170px;
@@ -57,7 +61,7 @@ body {
 
 .colore-paragrafo{
   font-weight: 600;
-  color: #8896a9;
+  color: #8492a6;
 }
 
 .testo-importante{
@@ -66,6 +70,6 @@ body {
 }
 
 *:hover{
-  transition: 0.1s;
+  transition: 0.2s;
 }
 </style>

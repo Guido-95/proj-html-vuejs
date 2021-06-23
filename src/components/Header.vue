@@ -25,16 +25,16 @@
                 <div class="icone-header">
                     <ul>
                         <li class="cerca">
-                            <i class="uil uil-search"></i>
+                            <i class="fas fa-search"></i>
                         </li>
                         <li class="background-icona">
-                            <i class="uil uil-github"></i>
+                            <i class="fab fa-github"></i>
                         </li>
                         <li class="background-icona">
-                            <i class="uil uil-github"></i>
+                            <i class="fab fa-stack-overflow"></i>
                         </li>
                         <li class="background-icona">
-                            <i class="uil uil-user"></i>
+                            <i class="far fa-user"></i>
                         </li>
                     </ul>
                 </div>
@@ -69,7 +69,7 @@ export default {
 }
 
 .non-attivo{
-     color: #3c4858;
+    color: #3c4858;
 }
 
 
@@ -81,7 +81,7 @@ export default {
         background-color: #f8f9fc;
         
         .wrapper{
-
+            
             .header-top{
                 height: 70px;
                 justify-content: space-between;
@@ -96,8 +96,11 @@ export default {
                 }
                 .menu-header {
                     ul {
+                        display: flex;
+                        justify-content: space-between;
+                    
                         li {
-                            margin: 10px;
+                            margin-right: 50px;
                             a{
                                 text-decoration: none;
                                 &:hover{
@@ -108,29 +111,33 @@ export default {
                         }
                     }
                 }
-                .icone-header{
-                    .cerca{
-                        font-size: 25px;
+                .icone-header {
+                    
+                    .cerca {
+                        font-size: 17px;
                         margin-right: 15px;
                         cursor: pointer;
                         color: #8492a6;
                     }
-                    ul{
-                        li{
+                    ul  {
+                        li {
                             margin: 4px;
                         }
                     }
-                    .background-icona{
-                        font-size: 22px;
+                    .background-icona {
+                        font-size: 18px;
                 
                         i {  
-                            box-shadow: 0px 0px 2px #d2daf6, 0px 9px 11px #d2daf6;
+                            
+                            box-shadow: 0px 0px 1px rgb(161, 161, 161), 0px 5px 4px #d2daf6;
                             border-radius: 5px;
                             color: #2f55d4;
                             background-color: #e4e9f8;
-                            padding: 8px 12px;
+                            padding: 9px 10px;
                             cursor: pointer;
-                            &:hover{
+
+                            &:hover {
+                    
                                 color:#e4e9f8 ;
                                 background-color: #2f55d4;
                             }

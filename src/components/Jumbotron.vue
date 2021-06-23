@@ -9,7 +9,9 @@
             <div class="testo-jumbotron">
                 <span class="bottone-arrotondato"> Development </span>
                 <h1>A Complete Developer Toolset </h1>
-                <p class="parargrafo-jumbotron colore-paragrafo">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
+                <p class = "parargrafo-jumbotron colore-paragrafo">
+                    Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.
+                </p>
                 <button class="bottone bottone-background">Get started</button> 
                 <button class="bottone bottone-no-background">Documentation</button>
                 <div class="versione">Current Version: v2.6.0</div>
@@ -30,8 +32,10 @@ export default {
 
 <style lang='scss' scoped>
 .border-bottom {
+    padding-top: 80px;
+    padding-bottom: 80px;
     position: relative;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #e9ecef;
     .impostazioni{
         position: absolute;
         display: flex;
@@ -57,27 +61,38 @@ export default {
         height: 500px;
         background-repeat: no-repeat;
         background-position: 96% 70%;
-        background-size: 30% 70%;
+        background-size: 42% 95%;
         background-image: url('../assets/img/about.png');
         .bottone-arrotondato{
+            display: inline-block;
             border-radius: 20px;
-            background: #e4e9f8;
+            margin-bottom: 10px;
             border: 1px solid lightgray;
             padding: 2px 10px;
             font-size: 12px;
             font-weight: 800;
+            background: #e4e9f8;
             color: #3157d4;
         }
         .testo-jumbotron {
-            width: 41%;
+            width: 48%;
+
+             h1 {
+                
+                font-weight: 800;
+                width: 70%;
+                font-size: 40px;
+                padding-right: 5px;
+            }
             .parargrafo-jumbotron {
                 margin: 25px 0px;
                 font-weight: 600;
-                font-size: 15px;
+                font-size: 18px;
             }
-            .versione{
+            .versione {
+                margin-top: 5px;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 15px;
                 color: #8b98ab;
             }
             .bottone{
@@ -90,6 +105,9 @@ export default {
                 font-size: 16px;
                 cursor: pointer;
                 
+            }
+            .bottone.bottone-background{
+                box-shadow:0px 1px 3px #2443ac;
             }
             .bottone.bottone-background:hover{
                 background-color: #2443ac;
@@ -107,10 +125,7 @@ export default {
                     background-color:#2f55d4;
                 }
             }
-            h1 {
-                font-size: 46px;
-                padding-right: 5px;
-            }
+           
             
         } 
     }

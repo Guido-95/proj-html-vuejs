@@ -25,17 +25,17 @@ name:'SezioneTools'
         display: flex;
         .div-sinistra{
             width: 60%;
-            h2{
+            h2 {
                 width: 50%;
                 font-size: 30px;
-                margin-bottom: 20px;
+                margin-bottom: 25px;
             }
-            p{
+            p {
                 font-weight: 600;
                 width: 80%;
                 margin-bottom: 20px;
             }
-            div{
+            div {
                 font-weight: 600;
                 margin-top: 10px;
                 i{  

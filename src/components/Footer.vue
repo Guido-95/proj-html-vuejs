@@ -45,7 +45,7 @@
               Sign up and receive the lates tips via email.
             </p>
             <div class="scrivi-email">
-              <span>Write your email  </span> 
+              <span> Write your email  </span> 
               <span class="color-red">*</span>
               <input type="text" class="input-email" placeholder="  Your email :">
               <button class="bottone bottone-background" >Subscribe</button>
@@ -55,7 +55,7 @@
     </div>
     <div class="footer-bottom wrapper">
       <div class="footer-bottom-sinistra">
-        &copy; 2020 Landrick. Design with by Shreethemes.
+        &copy; 2020 Landrick. Design with <span class="color-red"> &#10084; </span> by Shreethemes.
       </div>
       <div class="footer-bottom-destra">
         <img src="../assets/img/american-ex.png" alt="">
@@ -121,11 +121,23 @@ export default {
         padding-right: 40px;
         display: flex;
         flex-direction: column;
+        p{
+          line-height: 23px;
+          font-weight: 600;
+          font-size: 15px;
+        }
         .social{
+          cursor: pointer;
           margin-top: 30px;
           font-size: 20px;
-          
           color: #a4acb5;
+          i{
+            &:hover{
+              color: #202942;
+              background-color: #a4acb5;
+          }
+          }
+         
           i{
             
             border-radius: 5px;
@@ -158,6 +170,10 @@ export default {
         a {
           text-decoration: none;
           color: #a4acb5;
+          
+          &:hover{
+              color: #dbdeeb;
+          }
         }
       }
       } 
@@ -180,29 +196,40 @@ export default {
               padding: 10px 20px;
               font-size: 15px;
               font-weight: 700;
-              }
+              cursor: pointer;
+            }
             .bottone-background{
               box-shadow: 0px 2px#334a96,  0 0 5px #334a96;
-              
               background-color: #222e51;
               color: #2f55d4;
+              &:hover{
+                box-shadow: 0px 0px;
+                color: #222e51;
+                background-color: #2f55d4;
+              }
             }
         }
         .input-email{
-          background-color: #27314f;
+          margin-top: 20px;
           border: none;
           border-radius: 5px;
           width: 100%;
-          padding: 15px;
-          padding-left: 30px;
+          padding: 15px 45px;
           background-image: url('../assets/img/envelope.svg');
           background-size: 20px 20px;
           background-position: 10px center;
           background-repeat: no-repeat;
+          background-color: #27314f;
           color:#a4acb5;
+
           &::placeholder{
             
             color: #a4acb5;
+          }
+          
+          &:focus{
+                  
+            outline: none;
           }
         }        
       }
@@ -220,9 +247,12 @@ export default {
      
       }
       .footer-bottom-destra{
+      
         width: 46%;
         text-align:right;
         img{
+          cursor: pointer;
+          margin-left: 8px;
           width: 35px;
         }
       }

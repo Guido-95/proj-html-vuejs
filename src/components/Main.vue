@@ -1,12 +1,13 @@
 <template>
-    <div>
+    <main>
+        
         <SezioneLoghi/>
         <SezioneKey/>
         <SezioneTools/>
         <SezioneShop/>
         <SezioneInfoEmail/>
         
-    </div>
+    </main>
 </template>
 
 <script>
@@ -29,11 +30,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h1{
-    padding: 100px;
-}
-.wrapper {
-  
-}
 
 </style>

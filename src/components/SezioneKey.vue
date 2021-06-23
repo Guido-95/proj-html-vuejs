@@ -11,11 +11,11 @@
                 <div class="icona">
                     <i class="uil uil-layer-group"></i>
                 </div>
-                <h4 >Modular</h4>
+                <h4>Modular</h4>
                 <p class="colore-paragrafo">Composed in a pseudo-Latin language which more or less corresponds.
 
                 </p>
-                <span>Read more <i class="fas fa-chevron-right"></i> </span>
+                <span>Read More <i class="fas fa-chevron-right"></i> </span>
             </div>
             <div class="colonna">
               
@@ -26,7 +26,7 @@
                 </div>
                 <h4>Responsive</h4>
                 <p class="colore-paragrafo">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                <span>Read more <i class="fas fa-chevron-right"></i> </span>
+                <span>Read More <i class="fas fa-chevron-right"></i> </span>
             </div>
             <div class="colonna">
             
@@ -37,7 +37,7 @@
                 </div>
                 <h4>Customizable</h4>
                 <p class="colore-paragrafo">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                <span>Read more <i class="fas fa-chevron-right"></i> </span>
+                <span>Read More <i class="fas fa-chevron-right"></i> </span>
             </div>
             <div class="colonna">
  
@@ -48,7 +48,7 @@
                 </div>
                 <h4>Scalable</h4>
                 <p class="colore-paragrafo">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                <span> Read more <i class="fas fa-chevron-right"></i> </span>
+                <span> Read More <i class="fas fa-chevron-right"></i> </span>
             </div>
         </div>
         <div class="parte-bassa">
@@ -103,28 +103,30 @@ name:'SezioneKey'
         width: 50%;
 
         h2{
-            margin: 80px 0px 40px 0px;
+            margin: 80px 0px 25px 0px;
             font-size: 30px;
         }
         p{
-            margin-bottom: 50px;
+            margin-bottom: 60px;
             
         }
     }
     .colonne{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 40px;
         h4{
+            color: #3c4858;
             margin: 20px 0px 15px 0px;
         }
        
         .colonna {
             position: relative;
-            width: calc(100% / 4 - 30px);
+            width: calc(100% / 4 - 22px);
             border-radius: 4px;
             padding: 32px 24px;
             margin-bottom: 50px;
-            box-shadow: 0 0 4px #eaf0f6;
+            box-shadow: 0 0 3px #d3e7fd;
             cursor: pointer;
             overflow: hidden;
 
@@ -157,8 +159,8 @@ name:'SezioneKey'
                 font-weight: 600;
                 color: #3157d4;
                 &:hover{
-                    color: #0229b6;
-                    text-decoration: underline;
+                    color: #052391;
+                    
                 }
                 i {
                     font-size: 10px;
@@ -185,10 +187,12 @@ name:'SezioneKey'
         width: 60%;
 
         h2{
+            margin-bottom: 25px;
             font-size: 30px;
             
         }
         h4 {
+            margin-bottom: 10px;
             text-align: center;
             color: #3157d4;
         }
@@ -197,9 +201,9 @@ name:'SezioneKey'
             margin-bottom: 70px;
         }
         .npm{
-            padding: 25px 15px;
+            padding: 25px 25px;
             width: 100%;
-            border-radius: 5px;
+            border-radius: 7px;
             background-color: #3c4858;
             .contenitore-npm{
                 margin: auto;
@@ -209,7 +213,10 @@ name:'SezioneKey'
                 background-color: #4f5a69;
                 border-radius: 5px;
                 .attivo{
-                    border-radius: 8px;
+                    border-top-left-radius: 4px;
+                    border-bottom-left-radius:  4px;
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius:  8px;
                     height: 100%;
                     background-color: #3c4858;     
                 }
@@ -233,14 +240,14 @@ name:'SezioneKey'
         
     }
     .check{
-       
         width: 100%;
         display: flex;
-        div{
+        div {
             margin: 25px 50px 15px 0px;
         }
         i{  
-            font-size: 15px;
+            margin-right: 4px;
+            font-size: 17px;
             color: #4cd19b;
         }
     }
