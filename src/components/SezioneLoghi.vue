@@ -20,8 +20,10 @@ export default {
 
 <style lang='scss' scoped>
 div{
-        width: 100%;
-        background-color: #f8f9fc;
+    width: 100%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    background-color: #f8f9fc;
 }
 .wrapper{
     display: flex;
