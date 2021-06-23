@@ -224,7 +224,7 @@ footer {
               cursor: pointer;
             }
             .bottone-background {
-              box-shadow: 0px 0px #4b5fa0,  0 3px px #334a96;
+              box-shadow: 0px 0px #4b5fa0,  0 3px 4px #334a96;
               background-color: #222e51;
               color: #2f55d4;
               
