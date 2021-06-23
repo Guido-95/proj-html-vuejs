@@ -121,7 +121,7 @@ export default {
 footer {
   position: relative;
   padding-top: 60px;
-  padding-bottom: 30px;
+  
   background-color: #202942;
 
   .footer-top {
@@ -263,8 +263,8 @@ footer {
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: 30px;
-  
+    height: 100px;
+
     .footer-bottom-sinistra {
       width: 50%;
       color: #a4acb5;
@@ -289,10 +289,9 @@ footer {
   .hook-inizio-pagina {
     position: absolute;
     right: 25px;
-    bottom: 25px;
+    bottom: 35px;
     padding: 4px 8px;
     border-radius: 5px;
-    transition: 5s;
     background-color: #2b48aa;
 
     i {
