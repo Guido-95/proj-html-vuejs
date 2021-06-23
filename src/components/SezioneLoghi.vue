@@ -1,39 +1,43 @@
 <template>
-<div>
-    <div class="wrapper">
-        <img src="../assets/img/amazon.svg" alt="">
-        <img src="../assets/img/google.svg" alt="">
-        <img src="../assets/img/lenovo.svg" alt="">
-        <img src="../assets/img/paypal.svg" alt="">
-        <img src="../assets/img/shopify.svg" alt="">
-        <img src="../assets/img/spotify.svg" alt="">
+    <!-- contenitore -->
+    <div>
+        <!-- contenitore rientrato -->
+        <div class="wrapper">
+            <!-- loghi -->
+            <img src="../assets/img/amazon.svg" alt="amazon">
+            <img src="../assets/img/google.svg" alt="google">
+            <img src="../assets/img/lenovo.svg" alt="lenovo">
+            <img src="../assets/img/paypal.svg" alt="paypal">
+            <img src="../assets/img/shopify.svg" alt="shopify">
+            <img src="../assets/img/spotify.svg" alt="spotify">
+            <!-- loghi -->
+        </div>
+        <!-- contenitore rientrato -->
     </div>
-</div>
+    <!-- contenitore -->
 </template>
 
 <script>
 export default {
     name:'SezioneLoghi'
-
 }
 </script>
 
 <style lang='scss' scoped>
-div{
+
+div {
     width: 100%;
     border-bottom-left-radius: 35%;
     border-bottom-right-radius: 35%;
     background-color: #f8f9fc;
 }
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: space-around;
     padding: 40px 0px;
-   
 
-    img{
+    img {
         width: 70px;
     }
 }
-
 </style>

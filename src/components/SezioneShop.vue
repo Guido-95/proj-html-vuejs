@@ -1,115 +1,172 @@
 <template>
-  <div class="wrapper">
-        <h2> Our rates for developer from landrick team </h2>
-        <p class="colore-paragrafo testo-shop">Start working with <span class="testo-importante"> Landrick  </span>that can provide everything need to generate awareness, drive traffic, connect.</p>
-        <div class="contenitore-colonne">
-            <div class="colonna">
-                <span class="bottone-arrotondato"> Basic </span>
-                <div class="prezzo"> &dollar; 9.00</div>
-                <div class="colore-paragrafo"> Per month </div>
-                <div class="colore-paragrafo paragrafo-colonna"> All the basics for business that are just getting started. </div>
-                
-                <div class="check">
-                    <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Full Acces
+    <!-- contenitore rientrato -->
+    <div class="wrapper">
+            <h2> 
+                Our rates for developer from landrick team 
+            </h2>
+            <p class="colore-paragrafo testo-shop">Start working with <span class="testo-importante"> Landrick  </span>that can provide everything need to generate awareness, drive traffic, connect.</p>
+            <!-- contenitore colonne -->
+            <div class="contenitore-colonne">
+                <!-- colonna 1 -->
+                <div class="colonna">
+                    <!-- informazioni colonna 1 -->
+                    <span class="bottone-arrotondato"> 
+                        Basic 
+                    </span>
+                    <div class="prezzo"> 
+                        &dollar; 9.00
                     </div>
-                    <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Enhanced Security
+                    <div class="colore-paragrafo"> 
+                        Per month 
                     </div>
-                     <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Source Files
+                    <div class="colore-paragrafo paragrafo-colonna"> 
+                        All the basics for business that are just getting started. 
                     </div>
-                     <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        1 Domain Free
-                    </div>
-                   
-                    <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Enhanced Security
-                    </div>
+                    
+                    <div class="check">
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Full Acces
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Enhanced Security
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Source Files
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            1 Domain Free
+                        </div>
+                    
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Enhanced Security
+                        </div>
 
-                    <button class="bottone bottone-background">Buy Now</button>
-                    <div class="colore-paragrafo">*No credit card required</div> 
+                        <button class="bottone bottone-background">
+                            Buy Now
+                        </button>
+                        <div class="colore-paragrafo">
+                            *No credit card required
+                        </div> 
+                    </div>
+                    <!-- informazioni colonna 1 -->
+                    
                 </div>
-                
-            </div>
-            <div class="colonna">
-              <div class="cover-ribbon">
-                  <div class="cover-ribbon-inside"> Best </div>
-              </div>
-                <span class="bottone-arrotondato"> Business </span>
-                <div class="prezzo"> &dollar; 39.00</div>
-                <div class="colore-paragrafo"> Per month </div>
-                <div class="colore-paragrafo paragrafo-colonna"> Better for growind businesses that want more customers. </div>
-                
-                <div class="check">
-                   <div class="check-singolo colore-paragrafo ">
-                        <i class="far fa-check-circle"></i> 
-                        Full Acces
-                    </div>
-                    <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Enhanced Security
-                    </div>
-                     <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Source Files
-                    </div>
-                     <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        1 Domain Free
-                    </div>
-                   
-                    <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Enhanced Security
-                    </div>
+                <!-- /colonna 1 -->
 
-                    <button class="bottone bottone-background">Buy Now</button>
-                    <div class="colore-paragrafo">*No credit card required</div> 
+                <!-- colonna 2 -->
+                <div class="colonna">
+
+                    <!-- fiocco -->
+                    <div class="cover-ribbon">
+                        <div class="cover-ribbon-inside"> 
+                            Best 
+                        </div>
+                    </div>
+                    <!-- /fiocco -->
+
+                    <!-- informazioni colonna 2 -->
+                    <span class="bottone-arrotondato"> 
+                        Business 
+                    </span>
+                    <div class="prezzo"> 
+                        &dollar; 39.00
+                    </div>
+                    <div class="colore-paragrafo"> 
+                        Per month 
+                    </div>
+                    <div class="colore-paragrafo paragrafo-colonna"> 
+                        Better for growind businesses that want more customers. 
+                    </div>
+                    <div class="check">
+                        <div class="check-singolo colore-paragrafo ">
+                            <i class="far fa-check-circle"></i> 
+                            Full Acces
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Enhanced Security
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Source Files
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            1 Domain Free
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Enhanced Security
+                        </div>
+                        <button class="bottone bottone-background">
+                            Buy Now
+                        </button>
+                        <div class="colore-paragrafo">
+                            *No credit card required
+                        </div>
+                        
+                    </div>
+                    <!-- /informazioni colonna 2--> 
                 </div>
-            </div>
-            <div class="colonna">
-                <span class="bottone-arrotondato"> Enterprise </span>
-                <div class="prezzo"> &dollar; 79.00</div>
-                <div class="colore-paragrafo"> Per month </div>
-                <div class="colore-paragrafo paragrafo-colonna"> Advanced feature for pros who need more customization. </div>
-                
-                <div class="check">
-                    <div class="check-singolo colore-paragrafo ">
-                        <i class="far fa-check-circle"></i> 
-                        Full Acces
-                    </div>
-                    <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Enhanced Security
-                    </div>
-                     <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Source Files
-                    </div>
-                     <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        1 Domain Free
-                    </div>
-                   
-                    <div class="check-singolo colore-paragrafo">
-                        <i class="far fa-check-circle"></i> 
-                        Enhanced Security
-                    </div>
+                <!-- /colonna 2 -->
 
-
-                    <button class="bottone bottone-background">Buy Now</button>
-                    <div class="colore-paragrafo">*No credit card required</div> 
+                <!-- colonna 3 -->
+                <div class="colonna">
+                    <!-- informazioni colonna 3 -->
+                    <span class="bottone-arrotondato"> 
+                        Enterprise 
+                    </span>
+                    <div class="prezzo"> 
+                        &dollar; 79.00
+                    </div>
+                    <div class="colore-paragrafo"> 
+                        Per month 
+                    </div>
+                    <div class="colore-paragrafo paragrafo-colonna"> 
+                        Advanced feature for pros who need more customization. 
+                    </div>
+                    <div class="check">
+                        <div class="check-singolo colore-paragrafo ">
+                            <i class="far fa-check-circle"></i> 
+                            Full Acces
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Enhanced Security
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Source Files
+                        </div>
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            1 Domain Free
+                        </div>
+                    
+                        <div class="check-singolo colore-paragrafo">
+                            <i class="far fa-check-circle"></i> 
+                            Enhanced Security
+                        </div>
+                        <button class="bottone bottone-background">
+                            Buy Now
+                        </button>
+                        <div class="colore-paragrafo">
+                            *No credit card required
+                        </div>
+                    </div>
+                    <!-- /informazioni colonna 3 -->
                 </div>
-            </div>
+                <!-- /colonna 3 -->
+        </div>
+        <!-- contenitore colonne -->
+        
     </div>
-    
-  </div>
+    <!-- /contenitore rientrato -->
 </template>
 
 <script>
@@ -119,30 +176,31 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-hr{
+hr {
     width: 100%;
 }
-.wrapper{
+.wrapper {
     padding: 80px 0px;
     text-align: center;
-    h2{
+
+    h2 {
         margin-bottom: 25px;
         font-size: 30px;
     }
-    .colore-paragrafo{
+    .colore-paragrafo {
        
         font-weight: 600;
     }
-    .testo-shop{
+    .testo-shop {
         margin: auto;
-        width: 50%;
+        width: 50%; 
     }
-    .contenitore-colonne{
-        margin-top: 50px;
+    .contenitore-colonne {
+        margin-top: 70px;
         display: flex;
         justify-content: space-between;
         
-        .colonna{
+        .colonna {
             position: relative;
             display: flex;
             flex-direction: column;
@@ -150,14 +208,12 @@ hr{
             padding: 25px;
             border-radius: 10px;
             box-shadow: 0px 3px  #adb5bd,  0 0 2px #d1dbe5;
-            width: calc(100% / 3 - 35px);
+            width: calc(100% / 3 - 25px);
             cursor: pointer;
 
-            &:hover{
+            &:hover {
                 box-shadow: 0px 3px  #2f55d4,  0 0 5px #adb5bd;
-                transform: scale(1.1);
-                // transition: 1s;
-                
+                transform: scale(1.1); 
             }
             .cover-ribbon {
                 height: 115px;
@@ -193,28 +249,28 @@ hr{
                 transform: rotate(-45deg);
             }
             .cover-ribbon .cover-ribbon-inside:after {
-            width: 0;
-            height: 0;
-            border-top: 7px solid transparent;
-            border-left: 10px solid #992C23;
-            border-bottom: 7px solid transparent;
-            position: absolute;
-            left: 88%;
-            right: 0;
-            top: 21px;
-            bottom: 0;
-            content: "";
-            transform: rotate(-45deg);
+                width: 0;
+                height: 0;
+                border-top: 7px solid transparent;
+                border-left: 10px solid #992C23;
+                border-bottom: 7px solid transparent;
+                position: absolute;
+                left: 88%;
+                right: 0;
+                top: 21px;
+                bottom: 0;
+                content: "";
+                transform: rotate(-45deg);
             }
-            .paragrafo-colonna{
+            .paragrafo-colonna {
                 margin: 15px 0px 15px 0px;
                 padding-bottom: 20px;
                 border-bottom: 1px solid #cbd6e2;
             }
-            .check{
+            .check {
                 width: 100%;
 
-                .bottone{
+                .bottone {
                     width: 100%;
                     margin: 20px 0px 20px 0px;
                     font-family: 'Nunito', sans-serif;
@@ -225,43 +281,44 @@ hr{
                     font-weight: 700;
                     cursor: pointer;
                 }
-                .bottone.bottone-background{
+                .bottone.bottone-background {
                     box-shadow:0px 1px 3px #2443ac;
                 }
-                .bottone.bottone-background:hover{
+                .bottone.bottone-background:hover {
                     background-color: #2443ac;
                 }
-                .bottone-background{
+                .bottone-background {
                     background-color: #2f55d4;
                     color: white;
                 }
-                .check-singolo{
+                .check-singolo {
                     margin-top: 10px;
-                    i{
+                    
+                    i {
                         color: #2f55d4;
                     }
                 }
             }
-            div{
+            div {
                 text-align: left;
             }
        
-        .bottone-arrotondato{
-            margin-bottom: 15px;
-            border-radius: 18px;
-            background: #eaeefb;
-            padding: 8px 23px;
-            box-shadow:  0 0 2px #eaf0f6;
-            font-size: 15px;
-            font-weight: 700;
-            color: #3157d4;
+            .bottone-arrotondato {
+                margin-bottom: 15px;
+                border-radius: 18px;
+                background: #eaeefb;
+                padding: 8px 23px;
+                box-shadow:  0 0 2px #eaf0f6;
+                font-size: 15px;
+                font-weight: 700;
+                color: #3157d4;
+            }
+            .prezzo {
+                margin-bottom: 5px;
+                font-size: 30px;
+                font-weight: 800;
+            }
         }
-        .prezzo{
-            margin-bottom: 5px;
-            font-size: 30px;
-            font-weight: 800;
-        }
-    }
     }
     
 }

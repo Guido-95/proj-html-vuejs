@@ -1,24 +1,38 @@
 <template>
+<!-- div contenitore col bordo -->
 <div class="border-bottom">
+    <!-- div in position absolute con l'ingranaggio -->
     <div class="impostazioni">
         <i class="fas fa-cog"></i>
     </div>
+    <!-- div in position absolute con l'ingranaggio -->
+
+    <!-- div contenitore rientrato -->
     <div class="wrapper">
-        
+        <!-- jumbotron -->
         <div class="jumbotron">
             <div class="testo-jumbotron">
-                <span class="bottone-arrotondato"> Development </span>
-                <h1>A Complete Developer Toolset </h1>
+                <span class="bottone-arrotondato"> 
+                    Development 
+                </span>
+                <!-- h1 jumbotron -->
+                <h1>
+                    A Complete Developer Toolset 
+                </h1>
+                <!-- -h1 jumbotron -->
                 <p class = "parargrafo-jumbotron colore-paragrafo">
                     Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.
                 </p>
-                <button class="bottone bottone-background">Get started</button> 
-                <button class="bottone bottone-no-background">Documentation</button>
-                <div class="versione">Current Version: v2.6.0</div>
+                <button class="bottone bottone-background"> Get started </button> 
+                <button class="bottone bottone-no-background"> Documentation </button>
+                <div class="versione"> Current Version: v2.6.0 </div>
             </div>
         </div>
+        <!-- -jumbotron -->
     </div>
+    <!-- div contenitore rientrato -->
 </div>
+<!-- div contenitore col bordo -->
 
    
 </template>
@@ -26,17 +40,18 @@
 <script>
 export default {
     name:'Jumbotron'
-
 }
 </script>
 
 <style lang='scss' scoped>
+
 .border-bottom {
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
     border-bottom: 1px solid #e9ecef;
-    .impostazioni{
+
+    .impostazioni {
         position: absolute;
         display: flex;
         align-items: center;
@@ -49,12 +64,13 @@ export default {
         cursor: pointer;
         background-color: white;
         box-shadow: 0px 0px 2px lightgray;
-        i{  
+
+        i {  
             font-size: 20px;
             color: #3157d4;
         }
     }
-}
+
     .jumbotron {
         display: flex;
         align-items: center;
@@ -63,7 +79,8 @@ export default {
         background-position: 96% 70%;
         background-size: 42% 95%;
         background-image: url('../assets/img/about.png');
-        .bottone-arrotondato{
+
+        .bottone-arrotondato {
             display: inline-block;
             border-radius: 20px;
             margin-bottom: 10px;
@@ -77,8 +94,7 @@ export default {
         .testo-jumbotron {
             width: 48%;
 
-             h1 {
-                
+                h1 {
                 font-weight: 800;
                 width: 70%;
                 font-size: 40px;
@@ -95,7 +111,7 @@ export default {
                 font-size: 15px;
                 color: #8b98ab;
             }
-            .bottone{
+            .bottone {
                 margin: 0px 10px 10px 0px;
                 font-family: 'Nunito', sans-serif;
                 border: none;
@@ -104,29 +120,29 @@ export default {
                 font-weight: 700;
                 font-size: 16px;
                 cursor: pointer;
-                
             }
-            .bottone.bottone-background{
+            .bottone.bottone-background {
                 box-shadow:0px 1px 3px #2443ac;
             }
-            .bottone.bottone-background:hover{
+            .bottone.bottone-background:hover {
                 background-color: #2443ac;
             }
-            .bottone-background{
+            .bottone-background {
                 background-color: #2f55d4;
                 color: white;
             }
-            .bottone-no-background{
+            .bottone-no-background {
                 border: 1px solid #2f55d4;
                 color: #2f55d4;
                 
-                &:hover{
+                &:hover {
                     color:white;
                     background-color:#2f55d4;
                 }
             }
-           
+            
             
         } 
     }
+}
 </style>
