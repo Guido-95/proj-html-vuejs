@@ -149,8 +149,8 @@ hr{
             align-items: flex-start;
             padding: 25px;
             border-radius: 10px;
-            box-shadow: 0px 3px  #adb5bd,  0 0 5px #adb5bd;
-            width: calc(100% / 3 - 30px);
+            box-shadow: 0px 3px  #adb5bd,  0 0 2px #d1dbe5;
+            width: calc(100% / 3 - 35px);
             cursor: pointer;
 
             &:hover{

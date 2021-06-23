@@ -21,11 +21,12 @@ name:'SezioneTools'
 </script>
 
 <style lang='scss' scoped>
-    .wrapper{
+    .wrapper {
         display: flex;
-        .div-sinistra{
+        .div-sinistra {
             width: 60%;
             h2 {
+                padding-top: 30px;
                 width: 50%;
                 font-size: 30px;
                 margin-bottom: 25px;
@@ -69,7 +70,7 @@ name:'SezioneTools'
         .div-destra{
             width: 40%;
             img{
-                width: 400px;
+                width: 440px;
             }
         }
 
