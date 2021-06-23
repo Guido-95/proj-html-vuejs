@@ -289,7 +289,7 @@ footer {
   .hook-inizio-pagina {
     position: absolute;
     right: 25px;
-    bottom: 35px;
+    bottom: 34px;
     padding: 4px 8px;
     border-radius: 5px;
     background-color: #2b48aa;
