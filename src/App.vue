@@ -32,7 +32,29 @@ export default {
       // logo header
       logo: 'logo-dark.png' ,
       // lista link header
-      listaHeader:['Home','Landing','Pages','Docs'],
+      listaHeader:[
+        {
+          testo:"Home",
+          link:'#',
+          attivo: false
+        },
+        {
+          testo:"Landing",
+          link:'#',
+          attivo: false
+        },
+        {
+          testo:"Page",
+          link:'#',
+          attivo: false
+        },
+        {
+          testo:"Docs",
+          link:'#',
+          attivo: false
+        }
+      ],
+
       // logo footer
       logoFooter: 'logo-light.png',
       // lista link sinistra footer

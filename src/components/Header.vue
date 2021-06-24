@@ -14,9 +14,9 @@
                     <ul>
                         <li v-for="elemento,indicatore in listaHeader" :key="indicatore">
                                 <!-- se è il secondo link della lista dagli la classe attivo -->
-                            <a :class="elemento == listaHeader[1] ? 'attivo' : 'non-attivo'" href="">
+                            <a @click = "impostaAttivo(indicatore)" :class="elemento.attivo ? 'attivo' : 'non-attivo'" :href="elemento.link">
 
-                                {{ elemento }}
+                                {{ elemento.testo }}
 
                                                                 <!-- se è il primo elemento della lista togli la freccia -->
                                 <i class="fas fa-chevron-down" :class="elemento == listaHeader[0] ? 'display-none' : ''"></i>
@@ -67,6 +67,15 @@ export default {
         // lista link header e logo
         listaHeader : Array,
         logo:String   
+    },
+    methods:{
+        impostaAttivo(indicatore){
+            this.listaHeader.forEach(
+                element => {
+                element.attivo = false;
+                this.listaHeader[indicatore].attivo = true
+            });
+        }
     }
 }
 </script>
