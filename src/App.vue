@@ -41,7 +41,7 @@ export default {
         {
           testo:"Landing",
           link:'#',
-          attivo: false
+          attivo: true
         },
         {
           testo:"Page",
