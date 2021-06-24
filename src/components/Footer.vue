@@ -130,6 +130,7 @@ footer {
 
     .wrapper {
       display: flex;
+      justify-content: space-between;
 
       h2 {
       font-weight: 500;
@@ -137,7 +138,8 @@ footer {
       font-size: 20px;
       color: white;
       }
-      p{
+      
+      p {
         color: #a4acb5;
       }
 
@@ -152,6 +154,7 @@ footer {
         padding-right: 40px;
         display: flex;
         flex-direction: column;
+
         p {
           line-height: 23px;
           font-weight: 600;
@@ -273,7 +276,7 @@ footer {
     .footer-bottom-destra {
       display: flex;
       align-items: center;
-      width: 46%;
+      width: 50%;
       justify-content: flex-end;
       
       img {
