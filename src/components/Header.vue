@@ -61,7 +61,6 @@ export default {
     name:'Header',
     components:{
         Jumbotron,
-        
     },
     props:{
         // lista link header e logo
